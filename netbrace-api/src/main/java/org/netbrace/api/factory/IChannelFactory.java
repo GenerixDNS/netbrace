@@ -1,6 +1,7 @@
 package org.netbrace.api.factory;
 
 import org.netbrace.api.IBootstrap;
+import org.netbrace.api.IChannelBootstrap;
 import org.netbrace.api.channels.IChannel;
 
 /**
@@ -12,9 +13,9 @@ import org.netbrace.api.channels.IChannel;
 
 public interface IChannelFactory {
 
-    IChannel newChannel();
+    IChannelBootstrap newChannel();
 
-    IChannel newChannel(Class<? extends IChannel> type);
+    IChannelBootstrap newChannel(Class<? extends IChannel> type);
 
     IChannel from(int snowflake);
 
