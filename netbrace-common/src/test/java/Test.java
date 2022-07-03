@@ -1,7 +1,4 @@
-package org.netbrace.api;
-
 import org.netbrace.api.channels.IChannel;
-import org.netbrace.api.factory.IChannelFactory;
 
 /**
  * this doc was created on 04.07.2022
@@ -10,8 +7,11 @@ import org.netbrace.api.factory.IChannelFactory;
  * @author Generix030
  */
 
-public interface IBootstrap {
+public class Test {
 
-    IChannelFactory channelFactory();
+    public Test() {
 
+
+
+    }
 }

@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/netbrace-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/netbrace-api/pom.xml" />
+        <option value="$PROJECT_DIR$/netbrace-common/pom.xml" />
       </list>
     </option>
   </component>
